@@ -10,10 +10,13 @@ namespace Desafio1.Console
             string resposta = null;
             do
             {
-                System.Console.WriteLine();
+                System.Console.WriteLine("Deseja jogar o quê? Ping Pong = 1, Videogame = 2");
+                resposta = System.Console.ReadLine();
+                if (resposta == null) continue;
 
-                var partida = PartidaFactory.ContruirPartida();
-                PingPongService.Jogar(partida);
+                var fabricaJogo = new JogoFactory();
+                var jogo = fabricaJogo.CriarJogo(resposta);
+                jogo.Jogar();
 
                 System.Console.WriteLine("Deseja jogar mais uma partida? (S/N)");
                 resposta = System.Console.ReadLine();

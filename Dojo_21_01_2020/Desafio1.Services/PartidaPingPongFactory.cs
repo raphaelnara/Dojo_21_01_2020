@@ -1,11 +1,12 @@
 ﻿using System;
 using Desafio1.Model;
+using Desafio1.Services.Interfaces;
 
 namespace Desafio1.Services
 {
-    public static class PartidaFactory
+    public class PartidaPingPongFactory : IPartidaFactory
     {
-        public static Partida ContruirPartida()
+        public Partida GerarPartida()
         {
             string jogador1, jogador2, jogador3, jogador4;
             do
@@ -50,15 +51,15 @@ namespace Desafio1.Services
 
             return new Partida
             {
-                Dupla1 = new Dupla
+                Participante1 = new Dupla
                 {
-                    Jogador1 = jogador1,
-                    Jogador2 = jogador2
+                    Jogador1 = new Jogador(jogador1),
+                    Jogador2 = new Jogador(jogador2)
                 },
-                Dupla2 = new Dupla
+                Participante2 = new Dupla
                 {
-                    Jogador1 = jogador3,
-                    Jogador2 = jogador4
+                    Jogador1 = new Jogador(jogador3),
+                    Jogador2 = new Jogador(jogador4)
                 },
             };
         }

@@ -3,3 +3,8 @@ c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.
 c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Model\obj\Debug\Desafio1.Model.csprojResolveAssemblyReference.cache
 c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Model\obj\Debug\Desafio1.Model.dll
 c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Model\obj\Debug\Desafio1.Model.pdb
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio1.Model\bin\Debug\Desafio1.Model.dll
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio1.Model\bin\Debug\Desafio1.Model.pdb
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio1.Model\obj\Debug\Desafio1.Model.csprojResolveAssemblyReference.cache
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio1.Model\obj\Debug\Desafio1.Model.dll
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio1.Model\obj\Debug\Desafio1.Model.pdb

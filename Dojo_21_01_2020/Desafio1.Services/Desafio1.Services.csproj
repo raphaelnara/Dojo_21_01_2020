@@ -40,10 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PartidaFactory.cs" />
+    <Compile Include="Interfaces\IDisplayService.cs" />
+    <Compile Include="Interfaces\IJogoFactory.cs" />
+    <Compile Include="Interfaces\IJogoService.cs" />
+    <Compile Include="Interfaces\IPartidaFactory.cs" />
+    <Compile Include="JogoFactory.cs" />
+    <Compile Include="PartidaVideogameFactory.cs" />
+    <Compile Include="PartidaPingPongFactory.cs" />
     <Compile Include="PingPongService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TelevisaoService.cs" />
+    <Compile Include="TvService.cs" />
+    <Compile Include="VideogameService.cs" />
+    <Compile Include="XboxService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Desafio1.Data\Desafio1.Data.csproj">
@@ -55,6 +63,7 @@
       <Name>Desafio1.Model</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

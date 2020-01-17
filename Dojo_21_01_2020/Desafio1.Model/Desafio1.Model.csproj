@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dupla.cs" />
+    <Compile Include="Jogador.cs" />
+    <Compile Include="Participante.cs" />
     <Compile Include="Partida.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Placar.cs" />
