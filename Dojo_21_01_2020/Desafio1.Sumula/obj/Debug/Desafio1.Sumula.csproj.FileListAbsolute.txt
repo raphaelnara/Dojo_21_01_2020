@@ -1,0 +1,12 @@
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Sumula\bin\Debug\Desafio1.Sumula.exe.config
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Sumula\bin\Debug\Desafio1.Sumula.exe
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Sumula\bin\Debug\Desafio1.Sumula.pdb
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Sumula\bin\Debug\Desafio1.Model.dll
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Sumula\bin\Debug\Desafio1.Services.dll
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Sumula\bin\Debug\Desafio1.Data.dll
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Sumula\bin\Debug\Desafio1.Model.pdb
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Sumula\bin\Debug\Desafio1.Services.pdb
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Sumula\bin\Debug\Desafio1.Data.pdb
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Sumula\obj\Debug\Desafio1.Sumula.csprojResolveAssemblyReference.cache
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Sumula\obj\Debug\Desafio1.Sumula.exe
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Sumula\obj\Debug\Desafio1.Sumula.pdb

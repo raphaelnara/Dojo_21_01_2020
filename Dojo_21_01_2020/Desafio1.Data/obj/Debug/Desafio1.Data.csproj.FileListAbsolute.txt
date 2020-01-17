@@ -1,0 +1,7 @@
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Data\bin\Debug\Desafio1.Data.dll
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Data\bin\Debug\Desafio1.Data.pdb
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Data\bin\Debug\Desafio1.Model.dll
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Data\bin\Debug\Desafio1.Model.pdb
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Data\obj\Debug\Desafio1.Data.csprojResolveAssemblyReference.cache
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Data\obj\Debug\Desafio1.Data.dll
+c:\users\rnperei\documents\visual studio 2015\Projects\Dojo_21_01_2020\Desafio1.Data\obj\Debug\Desafio1.Data.pdb
