@@ -43,7 +43,7 @@
     <Compile Include="PartidaFactory.cs" />
     <Compile Include="PingPongService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TelevisaoService.cs" />
+    <Compile Include="TvService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Desafio1.Data\Desafio1.Data.csproj">

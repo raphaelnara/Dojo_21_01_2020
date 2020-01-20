@@ -9,17 +9,12 @@ namespace Desafio1.Services
         public static void Jogar(Partida partida)
         {
             var random = new Random();
+            
+            var placar = new Placar(partida, random.Next(5), random.Next(5));
 
-            partida.Data = DateTime.Now;
-            partida.Placar = new Placar
-            {
-                Valor1 = random.Next(5),
-                Valor2 = random.Next(5)
-            };
+            Database.SalvarResultado(placar);
 
-            Database.SalvarPartida(partida);
-
-            TelevisaoService.ExibirResultado(partida);
+            TvService.ExibirResultado(placar);
         }
     }
 }

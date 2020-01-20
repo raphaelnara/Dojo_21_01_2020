@@ -10,13 +10,13 @@ namespace Desafio1.Console
             string resposta = null;
             do
             {
-                System.Console.WriteLine();
-
                 var partida = PartidaFactory.ContruirPartida();
                 PingPongService.Jogar(partida);
 
                 System.Console.WriteLine("Deseja jogar mais uma partida? (S/N)");
                 resposta = System.Console.ReadLine();
+
+                System.Console.WriteLine();
             }
             while (string.IsNullOrEmpty(resposta) || resposta.Equals("S", StringComparison.InvariantCultureIgnoreCase));
         }

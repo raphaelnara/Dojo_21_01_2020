@@ -5,11 +5,9 @@ namespace Desafio1.Data
 {
     public class Database
     {
-        public static void SalvarPartida(Partida partida)
+        public static void SalvarResultado(Placar placar)
         {
-            Console.WriteLine();
-            Console.WriteLine("Partida salva no SQL Server");
-            Console.WriteLine();
+            Console.WriteLine("Resultado da partida registrado no banco de dados");
         }
     }
 }
