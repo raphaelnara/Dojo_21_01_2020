@@ -1,4 +1,4 @@
-﻿namespace Desafio2.Extracao
+﻿namespace Desafio2.Arquivo
 {
     public class Resultado
     {

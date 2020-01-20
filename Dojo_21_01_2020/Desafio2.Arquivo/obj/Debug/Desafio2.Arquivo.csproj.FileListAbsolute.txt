@@ -1,0 +1,6 @@
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio2.Arquivo\bin\Debug\Desafio2.Arquivo.exe.config
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio2.Arquivo\bin\Debug\Desafio2.Arquivo.exe
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio2.Arquivo\bin\Debug\Desafio2.Arquivo.pdb
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio2.Arquivo\obj\Debug\Desafio2.Arquivo.csprojResolveAssemblyReference.cache
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio2.Arquivo\obj\Debug\Desafio2.Arquivo.exe
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio2.Arquivo\obj\Debug\Desafio2.Arquivo.pdb

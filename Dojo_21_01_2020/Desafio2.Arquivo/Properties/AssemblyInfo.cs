@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Desafio2.Extracao")]
+[assembly: AssemblyTitle("Desafio2.Arquivo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Desafio2.Extracao")]
+[assembly: AssemblyProduct("Desafio2.Arquivo")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c2c612f8-c4c1-4c3d-aee2-b7c10c80af55")]
+[assembly: Guid("6025634a-a529-487e-ba0a-3412be5bec8c")]
 
 // Version information for an assembly consists of the following four values:
 //
