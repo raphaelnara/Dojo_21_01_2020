@@ -12,7 +12,7 @@ namespace Desafio1.Console
                 string resposta = null;
                 do
                 {
-                    PingPongService.CriarNovaPartida();
+                    PingPongService.ExecutarNovaPartida();
 
                     System.Console.WriteLine("Deseja jogar mais uma partida? (S/N)");
                     resposta = System.Console.ReadLine();

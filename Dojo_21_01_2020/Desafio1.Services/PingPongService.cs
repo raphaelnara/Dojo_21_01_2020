@@ -6,7 +6,7 @@ namespace Desafio1.Services
 {
     public static class PingPongService
     {
-        public static void CriarNovaPartida()
+        public static void ExecutarNovaPartida()
         {
             var partida = PartidaFactory.ConstruirPartida();
 
