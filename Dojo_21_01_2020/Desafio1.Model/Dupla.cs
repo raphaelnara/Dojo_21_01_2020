@@ -2,8 +2,8 @@
 {
     public class Dupla
     {
-        public string Jogador1 { get; set; }
-        public string Jogador2 { get; set; }
+        public Jogador Jogador1 { get; set; }
+        public Jogador Jogador2 { get; set; }
 
         public override string ToString()
         {

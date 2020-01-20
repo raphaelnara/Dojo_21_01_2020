@@ -7,7 +7,7 @@ namespace Desafio1.Data
     {
         public static void SalvarResultado(Placar placar)
         {
-            Console.WriteLine("Resultado da partida registrado no banco de dados");
+            Console.WriteLine("Resultado da partida de PING PONG registrado no banco de dados");
         }
     }
 }

@@ -7,18 +7,25 @@ namespace Desafio1.Console
     {
         static void Main(string[] args)
         {
-            string resposta = null;
-            do
+            try
             {
-                var partida = PartidaFactory.ConstruirPartida();
-                PingPongService.Jogar(partida);
+                string resposta = null;
+                do
+                {
+                    PingPongService.CriarNovaPartida();
 
-                System.Console.WriteLine("Deseja jogar mais uma partida? (S/N)");
-                resposta = System.Console.ReadLine();
+                    System.Console.WriteLine("Deseja jogar mais uma partida? (S/N)");
+                    resposta = System.Console.ReadLine();
 
-                System.Console.WriteLine();
+                    System.Console.WriteLine();
+                }
+                while (string.IsNullOrEmpty(resposta) || resposta.Equals("S", StringComparison.InvariantCultureIgnoreCase));
             }
-            while (string.IsNullOrEmpty(resposta) || resposta.Equals("S", StringComparison.InvariantCultureIgnoreCase));
+            catch (Exception e)
+            {
+                System.Console.WriteLine(e);
+                System.Console.Read();
+            }
         }
     }
 }

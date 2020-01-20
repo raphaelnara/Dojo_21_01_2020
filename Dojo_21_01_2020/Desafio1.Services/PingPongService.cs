@@ -6,8 +6,10 @@ namespace Desafio1.Services
 {
     public static class PingPongService
     {
-        public static void Jogar(Partida partida)
+        public static void CriarNovaPartida()
         {
+            var partida = PartidaFactory.ConstruirPartida();
+
             var random = new Random();
             
             var placar = new Placar(partida, random.Next(5), random.Next(5));
