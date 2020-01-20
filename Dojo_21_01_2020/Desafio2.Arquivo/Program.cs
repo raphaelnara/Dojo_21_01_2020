@@ -16,9 +16,8 @@ namespace Desafio2.Arquivo
         static void Main(string[] args)
         {
             var arq = args.Length == 0 ? @"C:\\temp\output" : args[0];
-
-            IEnumerable <DataRow> registros = Ler().AsEnumerable().Where(row => Convert.ToDateTime(row["Data"]) >= DateTime.Now.AddMonths(-1));
             Dictionary<string, int> kv = new Dictionary<string, int>();
+            IEnumerable <DataRow> registros = Ler().AsEnumerable().Where(row => Convert.ToDateTime(row["Data"]) >= DateTime.Now.AddMonths(-1));
             IEnumerable<Resultado> registros2 = registros.Select(row => new Resultado
             {
                 Jogador1 = row["Jogador1"].ToString(),
@@ -62,36 +61,61 @@ namespace Desafio2.Arquivo
                 str += keyValue.Key + "," + keyValue.Value + "\n");
             StreamWriter writer = new StreamWriter(arq, false, Encoding.UTF8);
             writer.Write(str);
-            Salvar(arq);
-            Console.WriteLine("Arquivo exportado com sucesso");
+            var resultado = Salvar(arq);
+            if (resultado.Sucesso)
+                Console.WriteLine("Sucesso");
+            else
+                Console.WriteLine("Erro ao salvar: {0}", resultado.Erro);
             Console.Read();
         }
         
         private static DataTable Ler()
         {
-            SqlConnection connection = new SqlConnection(ConfigurationManager.AppSettings["BD"]);
-            SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM Resultado", connection);
-            DataTable result = new DataTable();
-            adapter.Fill(result);
-            return result;
+            try
+            {
+                SqlConnection connection = new SqlConnection(ConfigurationManager.AppSettings["BD"]);
+                SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM Resultado", connection);
+                DataTable result = new DataTable();
+                adapter.Fill(result);
+                return result;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
 
         private static DataTable Ler(string data)
         {
-            SqlConnection connection = new SqlConnection(ConfigurationManager.AppSettings["BD"]);
-            SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM Resultado WHERE Data = " + data, connection);
-            DataTable result = new DataTable();
-            adapter.Fill(result);
-            return result;
+            try
+            {
+                SqlConnection connection = new SqlConnection(ConfigurationManager.AppSettings["BD"]);
+                SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM Resultado WHERE Data = " + data, connection);
+                DataTable result = new DataTable();
+                adapter.Fill(result);
+                return result;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
 
-        private static void Salvar(string a)
+        private static ResultadoBanco Salvar(string a)
         {
-            SqlConnection connection = new SqlConnection(ConfigurationManager.AppSettings["BD"]);
-            connection.Open();
-            SqlCommand command = connection.CreateCommand();
-            command.CommandText = "INSERT INTO Arquivo VALUES (GETDATE(), '" + a + "')";
-            command.ExecuteNonQuery();
+            try
+            {
+                SqlConnection connection = new SqlConnection(ConfigurationManager.AppSettings["BD"]);
+                connection.Open();
+                SqlCommand command = connection.CreateCommand();
+                command.CommandText = "INSERT INTO Arquivo VALUES (GETDATE(), '" + a + "')";
+                command.ExecuteNonQuery();
+                return new ResultadoBanco();
+            }
+            catch
+            {
+                return null;
+            }
         }
     }
 }
