@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio1.Services", "Desafi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio1.Console", "Desafio1.Console\Desafio1.Console.csproj", "{ECA643AC-121B-49B0-8770-017265EB8BCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio2.Extracao", "Desafio2.Extracao\Desafio2.Extracao.csproj", "{C2C612F8-C4C1-4C3D-AEE2-B7C10C80AF55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{ECA643AC-121B-49B0-8770-017265EB8BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECA643AC-121B-49B0-8770-017265EB8BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECA643AC-121B-49B0-8770-017265EB8BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C612F8-C4C1-4C3D-AEE2-B7C10C80AF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C612F8-C4C1-4C3D-AEE2-B7C10C80AF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C612F8-C4C1-4C3D-AEE2-B7C10C80AF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C612F8-C4C1-4C3D-AEE2-B7C10C80AF55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +52,6 @@ Global
 		{955C87BB-E792-42B3-9240-77C2C55F790A} = {3B2D0656-ABBD-48C3-B1D5-F1ACB8095964}
 		{B6FB2035-115D-4D07-B303-36D3058BD426} = {3B2D0656-ABBD-48C3-B1D5-F1ACB8095964}
 		{ECA643AC-121B-49B0-8770-017265EB8BCC} = {3B2D0656-ABBD-48C3-B1D5-F1ACB8095964}
+		{C2C612F8-C4C1-4C3D-AEE2-B7C10C80AF55} = {4D055B0C-3265-453B-9B17-7BC646F744F6}
 	EndGlobalSection
 EndGlobal
