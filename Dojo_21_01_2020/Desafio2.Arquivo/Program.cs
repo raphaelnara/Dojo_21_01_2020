@@ -95,9 +95,9 @@ namespace Desafio2.Arquivo
                 adapter.Fill(result);
                 return result;
             }
-            catch (Exception e)
+            catch
             {
-                throw e;
+                throw new Exception();
             }
         }
 
