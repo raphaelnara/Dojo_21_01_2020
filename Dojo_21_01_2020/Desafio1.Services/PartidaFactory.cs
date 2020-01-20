@@ -5,7 +5,7 @@ namespace Desafio1.Services
 {
     public static class PartidaFactory
     {
-        public static Partida ContruirPartida()
+        public static Partida ConstruirPartida()
         {
             string jogador1, jogador2, jogador3, jogador4;
             do
