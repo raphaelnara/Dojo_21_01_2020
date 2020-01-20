@@ -31,7 +31,6 @@ namespace Desafio2.Arquivo
                 MatchCollection matches = Regex.Matches(r.Placar, @"[^X]+");
                 int v1, v2;
                 if (int.TryParse(matches[0].Value, out v1) && int.TryParse(matches[1].Value, out v2))
-                {
                     if (v1 > v2)
                     {
                         if (kv.ContainsKey(r.Jogador1))
@@ -43,7 +42,7 @@ namespace Desafio2.Arquivo
                         else
                             kv[r.Jogador2] = 1;
                     }
-                    if (v1 < v2)
+                    else if (v1 < v2)
                     {
                         if (kv.ContainsKey(r.Jogador3))
                             kv[r.Jogador3]++;
@@ -54,7 +53,6 @@ namespace Desafio2.Arquivo
                         else
                             kv[r.Jogador4] = 1;
                     }
-                }
             });
             string str = string.Empty;
             Parallel.ForEach(kv, keyValue =>
