@@ -1,0 +1,6 @@
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio1.Partidas\bin\Debug\Desafio1.Partidas.exe.config
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio1.Partidas\bin\Debug\Desafio1.Partidas.exe
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio1.Partidas\bin\Debug\Desafio1.Partidas.pdb
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio1.Partidas\obj\Debug\Desafio1.Partidas.csprojResolveAssemblyReference.cache
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio1.Partidas\obj\Debug\Desafio1.Partidas.exe
+C:\Temp\Dojo\Dojo_21_01_2020\Desafio1.Partidas\obj\Debug\Desafio1.Partidas.pdb
