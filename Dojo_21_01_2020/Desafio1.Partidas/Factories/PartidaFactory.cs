@@ -12,13 +12,13 @@ namespace Desafio1.Partidas.Factories
             {
                 Dupla1 = new Dupla
                 {
-                    Jogador1 = new Jogador(ConsoleUtil.ObterInput("Entre com o jogador 1 para a dupla 1:")),
-                    Jogador2 = new Jogador(ConsoleUtil.ObterInput("Entre com o jogador 2 para a dupla 1:"))
+                    Jogador1 = new Jogador(ConsoleUtil.ObterInput("Entre com o jogador 1 para a dupla 1: ")),
+                    Jogador2 = new Jogador(ConsoleUtil.ObterInput("Entre com o jogador 2 para a dupla 1: "))
                 },
                 Dupla2 = new Dupla
                 {
-                    Jogador1 = new Jogador(ConsoleUtil.ObterInput("Entre com o jogador 1 para a dupla 2:")),
-                    Jogador2 = new Jogador(ConsoleUtil.ObterInput("Entre com o jogador 2 para a dupla 2:"))
+                    Jogador1 = new Jogador(ConsoleUtil.ObterInput("Entre com o jogador 1 para a dupla 2: ")),
+                    Jogador2 = new Jogador(ConsoleUtil.ObterInput("Entre com o jogador 2 para a dupla 2: "))
                 },
             };
         }
